@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>
+      Aspiring Web Developer | Passionate About Learning | Building My Skills
+    </p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="profile">
+        <img src="profile.png" alt="Profile Picture" class="profile-pic" />
+      </div>
+      <div class="content">
+        <p>
+          Hello! I'm a budding web developer who enjoys solving problems and
+          creating user-friendly websites. I'm currently learning the
+          fundamentals of web development, including HTML, CSS, and
+          JavaScript, and I'm passionate about building clean, modern, and
+          responsive designs. I'm excited to grow my skills and contribute to
+          innovative projects!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <p>HTML</p>
+      </div>
+      <div class="skill">
+        <p>CSS</p>
+      </div>
+      <div class="skill">
+        <p>JavaScript</p>
+      </div>
+      <div class="skill">
+        <p>Tailwind CSS</p>
+      </div>
+      <div class="skill">
+        <p>Java</p>
+      </div>
+      <div class="skill">
+        <p>C & C++</p>
+      </div>
+      <div class="skill">
+        <p>SQL</p>
+      </div>
+      <div class="skill">
+        <p>DSA</p>
+      </div>
+    </div>
+    <div class="resume-button">
+      <button class="download">
+        <a href="img.jpg" style="text-decoration: none;">Download Resume</a>
+      </button>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>Creative web design for a personal blog.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Interactive portfolio with smooth animations.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>E-commerce website with responsive UI.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Enter Your Name" required>
+      <span id="nameError" class="error"></span>
+
+      <input type="email" id="email" placeholder="Enter Your Email" required>
+      <span id="emailError" class="error"></span>
+
+      <textarea id="message" placeholder="Enter Your Message" required></textarea>
+      <span id="messageError" class="error"></span>
+
+      <button type="submit" id="submitButton">Send Message</button>
+      <p id="formOutput"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fas fa-envelope"></i></a>
+      <a href="https://wa.me/yourphonenumber" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="tel:+9372075790"><i class="fas fa-phone"></i></a>
+    </div>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
